@@ -1,6 +1,35 @@
-body {
-  padding: 5%;
-  background-color: #f3f3f3;
+h1{
+  font: 25px, italic, georgia,arial,sans-serif;
+  color: rgb(255,0,150);
+  border: 2px dotted black;
+  padding: 3px;
+}
+
+h2{
+  color: white;
+  background-color: grey;
+  border: 3px dotted black;
+  padding: 5px;
+  margin-bottom: 25px;
+}
+
+h3{
+  font: 25px, italic, georgia,arial,sans-serif;
+  color: rgb(255,0,150);
+}
+
+p{
+  color: grey;
+}
+
+form{
+  border: 4px dotted rgb(255,0,150);
+  padding: 10px;
+}
+
+button{
+  border: 4px solid rgb(255,0,0);
+  padding: 5px;
 }
 
 .gradeBox {
@@ -8,4 +37,5 @@ body {
   height: 2em;
   background-color: white;
   margin: 1em 0;
+  border: 2px solid black;
 }
